@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+
+      <img src="../images/logo.svg" alt="logo" width="400px" height="200px">
+
+
+      <p>
+        <h1>Hoja de Vida</h1>
+        <h2>Nombre Completo:Jose Eduardo Ulloa Serracin</h2>
+        <h3>Fecha de Nacimiento: 14-11-1988</h3>
+        <h3>Direccion: Brisas Norte, PH Alpes, Calle 8va</h3>
+      </p>
+    </header>
+
+
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Inicio</a>
+        </li>
+
+        <li>
+          <a href="#">Educacion</a>
+        </li>
+
+        <li>
+          <a href="experiencia.html">Experiencia</a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <article>
+      <h2>Educacion</h2>
+
+      <p>
+        <table border="2" >
+          <th>Año</th>
+          <th>Institucion</th>
+          <th>Lugar</th>
+          <th>Culmino?</th>
+
+          <tr>
+            <td>2007</td>
+            <td>Instituto Panamericano</td>
+            <td>Panama</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td>2012</td>
+            <td>Escuela Superior de Ingenieria</td>
+            <td>España</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td>2013</td>
+            <td>Universidad Tecnologica de Panama</td>
+            <td>Panama</td>
+            <td>Si</td>
+          </tr>
+
+        </table>
+      </p>
+
+      <h2>Agregar Estudios</h2>
+
+        <p>
+          <form>
+            <fieldset>
+
+              <p>
+                <strong><label for="ano">Año:</label><strong>
+                <select  name="ano" id="ano">
+                  <option value="1">2016</option>
+                  <option value="1">2017</option>
+                  <option value="1">2018</option>
+                </select>
+              </p>
+
+              <p>
+                <strong><label for="institucion">Institucion:</label><strong>
+                <input type="text" name="institucion" id="institucion" placeholder="Ej: Instituto Panamericano" required>
+              </p>
+
+              <p>
+                <strong><label for="lugar">Lugar:</label></strong><br>
+                <textarea name="lugar" rows="8" cols="80"></textarea>
+              </p>
+
+              <p>
+                <strong><label for="culmino">Culmino?</label></strong>
+                <input type="radio" name="culmino" value="si" required>Si
+                <input type="radio" name="culmino" value="no" required>No
+              </p>
+
+              <p>
+                <input type="submit" name="enviar" value="Enviar">
+              </p>
+
+
+            </fieldset>
+          </form>
+        </p>
+
+    </article>
+
+    <footer>
+    <strong><a href="mailto:sistemas.ulloa@gmail.com?subject=Contacto">Email:sistemas.ulloa@gmail.com</a> | Telefonos:831-0463 | <a target="_blank" href="http://www.facebook.com">Perfil de Facebook</a></strong>
+    </footer>
+  </body>
+</html>
